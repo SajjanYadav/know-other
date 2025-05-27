@@ -3,15 +3,15 @@ import Card from "./Card";
 function Details({userData}) {
     return (
         <div>
-            <div class="navbar">
-                <div class="nav">letMe</div>
-                <div class="nav">details</div>
+            <div className="navbar">
+                <div className="nav">letMe</div>
+                <div className="nav">details</div>
             </div>
-            <div class="container">
-                <h2 class="title">Know Other People</h2>
-                <div class="cards">
+            <div className="container">
+                <h2 className="title">Know Other People</h2>
+                <div className="cards">
                     {userData.map((data) => {
-                        return <Card {...data}></Card>
+                        return <Card key={data.id} {...data}></Card>
                     })}
                 </div>
             </div>
