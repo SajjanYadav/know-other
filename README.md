@@ -16,9 +16,10 @@ A React application that fetches user data from an external API and displays use
 ---
 
 ## 🖼 Preview
+![image](https://github.com/user-attachments/assets/3e83fa1f-bd75-4583-af2f-fee83a09ce3e)
+![image](https://github.com/user-attachments/assets/6e903376-c9a4-479b-874b-406ee9b510f3)
 
-> ![image](https://github.com/user-attachments/assets/ab465687-87e9-4f8c-b0b3-3f12f864bde1)
-![image](https://github.com/user-attachments/assets/8baae5fa-8d17-4da3-8e88-a090f17dbbf9)
+
 
 
 ---
