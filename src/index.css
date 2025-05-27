@@ -1,27 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    min-height: 100vh;
-    font-family: "Poppins", sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Landing Page */
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-  font-size: 20px;
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
 
 .page-container {
   position: relative;
@@ -72,112 +53,6 @@ body{
     flex-direction: column;
 }
 
-/* Cards */
-
-.title{
-    font-size: 3rem;
-    margin: 6vh;
-    border-radius: 20px;
-    border: 7px dashed #F9A12EFF;
-    padding: 1vh 5vw;
-    color: wheat;
-} 
-
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 1300px;
-    margin: 0 auto;
-}
-
-.card{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: 1rem;
-    padding: 1rem;
-    height: 730px;
-    border-radius: 10px;
-    align-items: left;
-    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
-    background-color: rgb(241, 211, 211);
-}
-
-.card:hover{
-    transform: scale(1.03);
-    box-shadow: rgba(0,0,0,0.24) 0px 6px 12px;
-}
-
-.image{
-    width: 320px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.name{
-    color: #ff0055;
-    font-size: 1.5rem;
-    margin-bottom: 3px;
-}
-
-.role{
-    color: gray;
-    font-size: 0.9rem;
-}
-
-.card-section {
-  margin-bottom: 16px;
-  font-size: 14px;
-  color: #333;
-}
-
-.email-section{
-    font-size: 0.9rem;
-    color: grey;
-    font-weight: 600;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    text-align: center;
-}
-
-.name-section{
-    text-align: center;
-    margin-bottom: 4px;
-}
-
-#email-hold{
-    font-weight: 900;
-    color: black;
-}
-
-.address-section{
-    font-size: 0.9rem;
-    color: rgb(1, 31, 255);
-    font-weight: bold;
-    margin: 14px;
-}
-
-.col{
-    color: #333;
-}
-
-.App{
-    background-color: #F9A12EFF;
-}
-
-.custom-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;        
-  width: 100%;
-  height: 90vh;
-  color: white;
-}
-
 /* Spinner */
 
 .spinner {
@@ -211,51 +86,6 @@ body{
         transform: rotate(1turn);
     }
 }
-
-
-/* Pagination */
-
-.pagination{
-    margin: 50px;
-}
-
-.pagination-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
-}
-
-.pagination-page,
-.pagination-prev,
-.pagination-next,
-.pagination-break {
-    padding: 8px 14px;
-    border-radius: 6px;
-    background-color: #e0e0e0;
-    color: #333;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-}
-
-.pagination-page:hover,
-.pagination-prev:hover,
-.pagination-next:hover {
-    background-color: #c0c0c0;
-}
-
-.pagination-active {
-    background-color: #1976d2;
-    color: white;
-    font-weight: bold;
-}
-
-.pagination-disabled {
-    opacity: 0.5;
-    pointer-events: none;
-}
-
 
 /* Error */
 
